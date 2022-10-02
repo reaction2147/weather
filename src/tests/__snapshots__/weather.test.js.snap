@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-black/[.5] rounded shadow backdrop-blur-sm border-black/[.9] w-100"
+  >
+    <div
+      class="flex flex-col justify-center p-4 text-red-700"
+    >
+      <h1
+        class="text-2xl"
+        data-testid="title"
+      >
+        ERROR
+      </h1>
+      <p
+        class="text-xl"
+        data-testid="sub_title"
+      >
+        Please enter a valid location
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

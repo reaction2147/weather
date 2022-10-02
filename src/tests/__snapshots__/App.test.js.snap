@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <section
+    class="h-screen flex justify-center items-center align-center"
+  >
+    <div
+      class="grid grid-cols-1 gap-4"
+    >
+      <p
+        class="text-white"
+        data-testid="instructions"
+      >
+        Enter your location to get todays weather
+      </p>
+      <div>
+        <form>
+          <input
+            class="p-2 border-solid border border-white rounded mr-2 sm:w-96"
+            placeholder="search"
+            type="text"
+            value=""
+          />
+          <button
+            aria-label="submit"
+            class="p-2 border-solid border border-white rounded ml-2 w-20 text-white hover:border-black"
+            type="submit"
+            value="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
