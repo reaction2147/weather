@@ -15,7 +15,7 @@ const App = () => {
   const getWeather = async () => {
     try {
       const response = await axios({
-        url: `http://api.openweathermap.org/data/2.5/weather?q=${search}&APPID=aba6c5f8e7cebde4bbf7faaa6af078bf&units=metric`,
+        url: `http://api.openweathermap.org/data/2.5/weather?q=${search}&APPID=${process.env.REACT_APP_API}&units=metric`,
         headers: {
           "Content-Type": "application/json",
         },
